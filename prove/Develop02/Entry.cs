@@ -9,7 +9,7 @@ public class Entry
     public void written()
     {
         Console.WriteLine($"\nDate: {_currentTime}");
-        Console.WriteLine($"engouragement: {_promptMessage}");
+        Console.WriteLine($"encouragement: {_promptMessage}");
         Console.WriteLine($"Your entry: {_journaledText}");
         Console.WriteLine("------------------------------------------------------");
 
