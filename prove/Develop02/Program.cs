@@ -30,8 +30,8 @@ class Program
                 case 1:
                     Entry newEntry = new Entry();
                     string timer = DateTime.Now.ToLongTimeString();
-                    string dater = DateTime.Now.ToShortDateString();
-                    newEntry._currentTime = $"{dater} - {timer}";
+                    string date = DateTime.Now.ToShortDateString();
+                    newEntry._currentTime = $"{date} - {timer}";
                     Random randomness = new Random();
                     int randomNumber = randomness.Next(0,9);
                     newEntry._promptMessage = encouragement.ReturnPrompt(randomNumber);
