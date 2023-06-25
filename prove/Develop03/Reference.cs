@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 public class Reference
 {
-    private static readonly string Path = "scriptures.txt";
+    private static readonly string Path = "scripture.txt";
     private Dictionary<List<string>, string> _singleScriptsDico;
     private Dictionary<string[], Dictionary<string[], string[]>> _multiScriptsDico;
     private Dictionary<string[], string[]> verseMultiple = new Dictionary<string[], string[]>();
